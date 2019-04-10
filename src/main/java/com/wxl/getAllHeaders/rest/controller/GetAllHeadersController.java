@@ -32,7 +32,7 @@ public class GetAllHeadersController {
 
         rm.setReqHeader(headers.toString());
 
-        logger.info("##########Header START###############");
+        logger.info("##########Header START#############");
         for (String headerName : headers.keySet()) {
             logger.info(headerName + ":" + headers.get(headerName));
 
